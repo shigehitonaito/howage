@@ -2,8 +2,6 @@
 
 
 class Guest
-	attr_accessor :age
-
 	def initialize(age = 50)
 		@age = age
 	end
