@@ -16,6 +16,9 @@ class Guest
 		when "down"
 			@age -= 1
 			self.answer
+		else
+			puts "#{answer}は選択できません。"
+			self.answer
 		end
 	end
 
