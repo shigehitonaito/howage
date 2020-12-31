@@ -9,7 +9,7 @@ class Guest
 	def set_age(answer)
 		case answer
 		when "true"
-			puts "あなたの年齢は#{@age}です!!"
+			puts "あなたの年齢は#{@age}歳です!!"
 		when "up"
 			@age += 1
 			self.answer
@@ -23,7 +23,7 @@ class Guest
 	end
 
 	def answer
-		puts "あなたの年齢は#{@age}ですか？"
+		puts "あなたの年齢は#{@age}歳ですか？"
 		set_age(answer = gets.chomp)
 	end
 end
