@@ -17,6 +17,7 @@ class Guest
 			@age -= 1
 			self.answer
 		else
+			answer = "空欄" if answer.empty?
 			puts "#{answer}は選択できません。"
 			self.answer
 		end
