@@ -7,4 +7,8 @@ Guest select "true" or "up" or "down" for the qestion "あなたの年齢はhoge
 
 Run
 
-$ git clone 
+$ git clone https://github.com/shigehitonaito/howage.git
+
+$ ruby howage.rb
+
+
